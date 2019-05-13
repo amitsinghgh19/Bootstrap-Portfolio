@@ -46,8 +46,13 @@
     <header>
 
       <!-- Start Nav -->
-      <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: rgb(7,203,121)">
-          <span class="navbar-brand mb-1 h1 mx-10">Amit Singh</span>
+      <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: rgb(146,202,67)">
+          <a class="navbar-brand navbar-brand mb-1 h1 mx-10" href="index.html">
+          <img src="assets/pic/as-logo2.png" width="30" height="30" class="d-inline-block align-top" alt="">
+          <span>Amit Singh</span>
+        </a>
+          <!-- <a class="navbar-brand navbar-brand mb-1 h1 mx-10 " href="#"><span>Amit Singh</span></a> -->
+          <!-- <span class="navbar-brand mb-1 h1 mx-10 ">Amit Singh</span> -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -55,16 +60,30 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="nav navbar-nav navbar-right">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
+                <a class="nav-link" href="index.html"><i class="fas fa-code"></i>About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="portfolio.html"><i class="fas fa-project-diagram"></i>Portfolio</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="contact.html">Contact</a>
+                <a class="nav-link" href="contact.html"><i class="fas fa-address-card"></i>Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://drive.google.com/open?id=1Z-iQcO2W4Vnp1CnamymvUk_-IPSldS0o" role="button"><i class="fas fa-fw fa-file-download"></i>Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html"><i class="fab fa-blogger-b"></i>Blog</a>
               </li>
             </ul>
           </div>
+
+          <div class="col-xs-8 pull-right text-right list-inline">
+              <ul>
+                <li class="list-inline-item  my-3 mb-1 mb-md-0 ml-md-1"><a href="https://stackoverflow.com/users/11048381/a-singh"><i class="fab fa-stack-overflow fa-lg"></i></a></li>
+                <li class="list-inline-item  my-3 mb-1 mb-md-0 ml-md-1"><a href="https://twitter.com/asinghtwit15"><i class="fab fa-twitter-square fa-lg"></i></a></li>
+                <li class="list-inline-item  my-3 mb-1 mb-md-0 ml-md-1"><a href="https://www.facebook.com/profile.php?id=100000711812145"><i class="fab fa-facebook-square fa-lg"></i></a></li>
+                <li class="list-inline-item  my-3 mb-1 mb-md-0 ml-md-1"><a href="https://www.instagram.com/asingh_ig17/"><i class="fab fa-instagram fa-lg"></i></a></li>              </ul>
+          </div>   
         </nav>
         <!-- End Nav -->
       </header>
@@ -76,10 +95,10 @@
        <!-- row: BEGIN -->
         <div class="row mt-3 ">
           <!-- Second column Contact Info: BEGIN -->
-          <div class="col-12 col-md-4 border border-success bg-success" style="border-width:3px !important;" >       
+          <div class="col-12 col-md-4 border border-primary" style="border-width:3px !important; background-color:rgb(208,237,246);" >       
               <div class="card mt-3 shadow">
                 
-                    <div class="card-body bg-success">
+                    <div class="card-body" style="background-color:rgb(125,209,202);">
                         
                         <div class="media">
                             <div class="fa-layers fa-fw fa-2x mr-3">
@@ -148,8 +167,8 @@
       <!-- Contact Info content: END -->  
       </div> 
           <!-- First column Contact Form: BEGIN -->
-            <div class="col-12 col-md-8 border border-success bg-success" style="border-width:3px !important;" >
-                <div class="card my-3 p-3 shadow">
+            <div class="col-12 col-md-8 border border-primary" style="border-width:3px !important; background-color:rgb(208,237,246);" >
+                <div class="card my-3 p-3 shadow" style="border-width:3px !important; background-color:rgb(208,237,246);" >
                     <div class="card-body">   
                         <form>
                           <div class="form-group">
@@ -166,7 +185,7 @@
                               <label for="exampleFormControlTextarea1">Message</label>
                               <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message..................." rows="4"></textarea>
                           </div>
-                          <button type="button" class="btn btn-primary my-2">Submit</button>
+                          <button type="button" class="btn btn-success my-2">Submit</button>
                         </form> 
                     </div>
                 </div>
@@ -180,7 +199,7 @@
     </div>
   <!-- Using Bootstrap, make a sticky footer -->
   <footer>
-    <div class="footer fixed-bottom navbar-expand-lg  text-white text-center " style="background-color: rgb(7,203,121)">
+    <div class="footer fixed-bottom navbar-expand-lg  text-white text-center " style="background-color: rgb(146,202,67)">
         <p class="navbar-text my-2 my-lg-0">
             Copyright  &copy Amit Singh 2019
         </p>     
