@@ -13,14 +13,25 @@
     
           body {
             
-            background: url(assets/pic/backgroundOcean.jpg) no-repeat center center fixed; 
+            /* background: url(assets/pic/backgroundOcean.jpg) no-repeat center center fixed;  */
             -webkit-background-size: cover;
             -moz-background-size: cover;
             -o-background-size: cover;
             background-size: cover;
-            background-color: rgb(234,233,230);
+            /* background-color: rgb(234,233,230); */
             background-blend-mode: screen;
+            background: rgb(204,203,200) url(assets/pic/backgroundOcean.jpg) repeat 0 0;
+            width: 100%;
+            margin: 0;
+            text-align: center;
+            box-sizing: border-box;
+            -webkit-animation: slide 20s linear infinite;
           }
+          @-webkit-keyframes slide {
+              from { background-position: 0 0; }
+              to { background-position: -400px 0; }
+          }
+
 
     </style>
 </head>
@@ -29,7 +40,7 @@
     <!-- A navbar -->
     <header>
     <!-- Start Nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(146,202,67)">
+    <nav class="navbar navbar-expand-lg navbar-dark text-uppercase" style="background-color: rgb(146,202,67)">
       <a class="navbar-brand navbar-brand mb-1 h1 mx-10" href="index.html">
         <img src="assets/pic/as-logo2.png" width="30" height="30" class="d-inline-block align-top" alt="">
         <span>Amit Singh</span>
@@ -52,11 +63,12 @@
               <a class="nav-link" href="contact.html"><i class="fas fa-address-card  fa-lg"></i><strong>Contact</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://drive.google.com/open?id=1Z-iQcO2W4Vnp1CnamymvUk_-IPSldS0o" role="button"><i class="fas fa-fw fa-file-download fa-lg"></i><strong>Resume</strong></a>
+                <a class="nav-link" href="blog.html"><i class="fab fa-blogger-b fa-lg"></i><strong>Blog</strong></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="blog.html"><i class="fab fa-blogger-b fa-lg"></i><strong>Blog</strong></a>
+              <a class="nav-link" href="https://drive.google.com/open?id=1Z-iQcO2W4Vnp1CnamymvUk_-IPSldS0o" role="button"><i class="fas fa-fw fa-file-download fa-lg"></i><strong>Resume</strong></a>
             </li>
+            
         </div>
 
         <div class="col-xs-8 pull-right text-right list-inline">
