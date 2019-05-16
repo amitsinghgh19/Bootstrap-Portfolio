@@ -26,6 +26,7 @@ My Portfolio Page contains:
 
 ## Future Improvements
     -Create a single page Portfolio page
+    -Work on blogs
     -Use database to capture analytics
     -Add a saperate module for Education, Skills Experience and Awards
 
