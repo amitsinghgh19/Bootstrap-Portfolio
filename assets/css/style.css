@@ -55,6 +55,8 @@
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
+  background-color:rgb(66,133,244);
+  color: white
 }
 #fs-frm button:focus,
 #fs-frm [type="button"]:focus,

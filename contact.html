@@ -15,15 +15,14 @@
     <!-- My own styling CSS -->
     <link rel="stylesheet"  type="text/css" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- <script>
+    <script>
     $(document).ready(function(){
-        $(".btn").click(function(){
-                $("button[type='button'], textarea,input").val("");
+        $("submitBtn").click(function(){
+                $("input[type='submit'], textarea,input").val("");
         });
     });
-    </script> -->
+    </script>
      <!-- <button type="button" class="btn btn-secondary my-2">Submit</button> -->     
-
      <style>
     
       body {
@@ -38,7 +37,7 @@
 
         background-color: rgb(255,255,255);
       }
-
+     
        /* Main container
         .container {
           width: 100%;
@@ -182,9 +181,9 @@
             </div>
         </div> 
       <!-- Contact Info content: END -->  
-     
           <!-- First column Contact Form: BEGIN -->
             <div class="col-12 col-md-8 border border-white " style="border-width:3px !important;" >
+              <h1 class="card-title" style="font-family: 'Playfair Display', serif;">Message Me</h1>
                 <div class="card shadow" style="background-color: rgb(248, 246, 246)" >
                     <div class="card-body">   
                       <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/asinghempire@gmail.com" method="post">
@@ -197,7 +196,7 @@
                           <textarea rows="5" name="message" id="message" placeholder="Your Message..." required=""></textarea>
                           <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                         </fieldset>
-                        <input type="submit" class="btn btn-primary my-2" value="Submit">
+                        <input type="submit" value="Submit" id="submitBtn">
                       </form>
                     </div>
                 </div>
